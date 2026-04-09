@@ -37,7 +37,7 @@
   gap: 20px;
   background-color: #ffffff;
   font-family: var(--accent-font);
-  
+
   align-items: center;
   padding: clamp(120px, 117.183px + 0.751vw, 128px) 0;
 }
@@ -97,7 +97,6 @@
 
   border-top: 2px solid black;
   border-bottom: 2px solid black;
-
 }
 
 .card__image {
@@ -107,7 +106,6 @@
   aspect-ratio: 1 / 1;
   object-fit: cover;
   object-position: center;
-  
 }
 
 .card__image-label {
@@ -214,7 +212,7 @@ dialog[open] {
   justify-self: center;
   width: clamp(341px, 80%, 353px);
   box-sizing: border-box;
-  padding: 28px 36px; 
+  padding: 28px 36px;
   border: 2px solid var(--accent-color);
   margin: 0;
 }
@@ -252,8 +250,6 @@ dialog[open] .dialog__content {
 dialog::backdrop {
   background-color: rgb(0 0 0 / 0.75);
 }
-
-
 
 /* Кнопки Like, «Сохранить на память» и «ОК» при фокусе: */
 .button {
@@ -358,20 +354,18 @@ dialog::backdrop {
 }
 
 @media (width >= 376px) {
-  
-.save__icon {
- height: 21px;
- width: 21px;
-}
+  .save__icon {
+    height: 21px;
+    width: 21px;
+  }
 
-.button__save {
-  flex-direction: row;
-  height: 55px;
-  width: 335px;
-}
+  .button__save {
+    flex-direction: row;
+    height: 55px;
+    width: 335px;
+  }
 
-.dialog[open] {
-  padding: 28px 28px; 
-}
-
+  .dialog[open] {
+    padding: 28px 28px;
+  }
 }
