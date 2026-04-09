@@ -87,6 +87,7 @@
   font-size: 18px;
   padding-inline: 25px;
   color: var(--text-color);
+  line-height: 21px;
 }
 .card__image-wrapper {
   position: relative;
@@ -112,7 +113,7 @@
 .card__image-label {
   position: absolute;
   right: 25px;
-  top: 25px;
+  top: 22px;
   opacity: 0.5;
   font-size: 14px;
   font-weight: 400;

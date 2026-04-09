@@ -1,22 +1,34 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-  --main-font: 'Inter', sans-serif;
-  --accent-font: 'PressStart2P', fantasy;
+  --main-font: "Inter", sans-serif;
+  --accent-font: "PressStart2P", fantasy;
   --card-text-weight: 410;
   --card-title-weight: 715;
 
   /* переменные для фона */
-  --page-bg: 
-  repeating-linear-gradient(to right, #d3d3d3,#d3d3d3 2px, transparent 2px, transparent 4px),
-  repeating-linear-gradient(to bottom, #d3d3d3,#d3d3d3 2px, transparent 2px, transparent 4px),
-  linear-gradient(to bottom,#e7e7e7 0.01%, #1a1a1a 100%);
+  --page-bg:
+    repeating-linear-gradient(
+      to right,
+      #d3d3d3,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      #d3d3d3,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
 
   --block-width: clamp(375px, 80vw, 700px);
   --block-border: solid #000000 2px;
   --accent-color: #000000;
   --text-color: #000000;
-  --text-stroke-color: #FFFFFF;
+  --text-stroke-color: #ffffff;
   --contour-color: #000000;
-  --animation-fill-color: #FF0000;
-  --color-bg: #FFFFFF;
+  --animation-fill-color: #ff0000;
+  --color-bg: #ffffff;
 }
